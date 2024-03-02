@@ -12,12 +12,12 @@
   <body>
     <div class="app">
     <header>
-      <form>
+      <form id="search-form">
         <input
           type="search"
           name=""
-          id=""
           placeholder="Enter a city.."
+          id="search-input"
           required
         class="search-input"/>
         <input type="submit" value="search" class="search-button" />
@@ -26,7 +26,7 @@
     <main>
         <div class="weather-data">
       <div>
-        <h1>Dammam</h1>
+        <h1 id="city">Dammam</h1>
         <p>
           Saturday 15:57, light rain
           <br />
@@ -47,5 +47,6 @@
       <a href="https://pink-weather.netlify.app" target="_blank">Netlify</a>
     </footer>
     </div>
+    <script src="scr/index.jsx"></script>
   </body>
 </html>

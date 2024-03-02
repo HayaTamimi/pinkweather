@@ -1,13 +1,92 @@
 body {
-    background-color: #FCF5EE;
- font-family: "Roboto", sans-serif;
+  background-color: #f7ddde;
+  font-family: "Roboto", sans-serif;
 }
 
+header {
+  border-bottom: 1px solid #fff3f3;
+  padding: 0 0 30px 0;
+}
+
+main {
+  padding: 30px 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  color: rgb(152, 152, 152);
+}
+
+strong {
+  color: #ecacb8;
+}
+footer {
+  border-top: 1px solid #fff3f3;
+  padding: 30px 0 0 0;
+  font-size: small;
+  text-align: center;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+a {
+  color: #eab3b4;
+}
 .app {
-    background: white;
-    max-width: 600px;
-    margin: 45px auto;
-    padding: 30px;
-    box-shadow: 0 30px 50px rgb(56, 50, 100, 0.08);
-    border-radius: 16px;
+  background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgb(56, 50, 100, 0.08);
+  border-radius: 16px;
+}
+
+.search-input {
+  background-color: #fffbfb;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-button {
+  background: #eab3b4;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.degree-info {
+    display: flex;
+}
+
+.icon {
+    font-size: 44px;
+    margin-top: 22px;
+}
+.number {
+    font-size: 88px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.c {
+    margin-top: 16px;
+    font-size: 28px;
 }
